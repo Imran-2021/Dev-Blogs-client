@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Bloggers.css"
-const Bloggers = () => {
+import "./Blogs.css"
+const Blogs = () => {
     return (
         <div className="bloggers">
             <div className="container bloggers-in">
@@ -13,4 +13,4 @@ const Bloggers = () => {
     );
 };
 
-export default Bloggers;
+export default Blogs;

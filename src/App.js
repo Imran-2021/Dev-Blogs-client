@@ -4,8 +4,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Bloggers from "./Bloggers/Bloggers";
 import Admin from "./Components/Admin/Admin";
+import Blogs from "./Components/Blogs/Blogs";
 import Home from "./Components/Home/Home";
 import SIgnIn from "./Components/LoginPage/SignIn";
 import SignUp from "./Components/LoginPage/SignUp";
@@ -31,8 +31,8 @@ function App() {
           <Route  path="/admin">
             <Admin/>
           </Route>
-          <Route  path="/bloggers">
-            <Bloggers/>
+          <Route  path="/blogs">
+            <Blogs/>
           </Route>
         </Switch>
     </Router>

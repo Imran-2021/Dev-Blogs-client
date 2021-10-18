@@ -1,5 +1,5 @@
 .home{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     /* clip-path: polygon(100% 83%, 100% 0%, 0% 0%, 0% 83%, 50% 100%); */
     clip-path: polygon(53% 95%, 125% 0%, 0% 0%, 0% 95%, 32% 89%);
@@ -7,10 +7,14 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: grid;
-    justify-content: center;
+    /* justify-content: center; */
     align-content: center;
+    
 }
-.muted{
-    color: inherit !important;
-    text-decoration: inherit !important;
+
+.text-primaryy{
+    color: blue!important;
+}
+.text-whitee{
+    color: #530e0e!important;
 }
