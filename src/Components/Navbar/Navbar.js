@@ -17,6 +17,7 @@ const Navbar = () => {
                 <div className="navitem">
                     <Link className="text-link text-linkr" to="/home">Home</Link>
                     <Link className="text-link text-linkr" to="/sign-in">Sign In</Link>
+                    <Link className="text-link text-linkr" to="/bloggers">Bloggers</Link>
                     <Link className="text-link text-linkr" to="/admin">Admin</Link>
                     
                 </div>

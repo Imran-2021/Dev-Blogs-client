@@ -1,0 +1,11 @@
+.bloggers{
+    width: 100%;
+    min-height:90vh;
+
+}
+.bloggers-in{
+    min-height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
