@@ -1,6 +1,6 @@
 # Dev-Blogs
-this is a blog web with ract. 
+this is a blog web with react. 
 
 ### `start coding for this web - [18 October 21]`
 
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+See the  [Dev-Blogs Web](https://dev-blogs-1.netlify.app/) for more information.
