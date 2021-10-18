@@ -1,7 +1,16 @@
 .home{
+    height: 80vh;
     width: 100%;
-    min-height: 90vh;
-    display: flex;
+    /* clip-path: polygon(100% 83%, 100% 0%, 0% 0%, 0% 83%, 50% 100%); */
+    clip-path: polygon(53% 95%, 125% 0%, 0% 0%, 0% 95%, 32% 89%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+}
+.muted{
+    color: inherit !important;
+    text-decoration: inherit !important;
 }
