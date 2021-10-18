@@ -1,11 +1,62 @@
 .bloggers{
     width: 100%;
     min-height:90vh;
-
+    background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
 }
 .bloggers-in{
-    min-height:90vh;
+    /* margin-top: 10px; */
+    min-height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 20px;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    font-size: 18px;
+    font-weight: 450;
+}
+/* .iinnn{
+    padding: 20px;
+    background: #ecf1f8c7;
+    border-radius: 2px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://y6b8k9e7.stackpathcdn.com/wp-content/uploads/2019/11/shutterstock_735526141-e1573693585496.jpg);
+    background-position:100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white
+
+} */
+.iinnn {
+    padding: 20px;
+    /* background: #ecf1f8c7; */
+    border-radius: 2px;
+    /* background-image: linear-gradient(rgb(0 0 0 / 88%),rgb(4 9 30 / 91%)),url(https://y6b8k9e7.stackpathcdn.com/wp-content/uploads/2019/11/shutterstock_735526141-e1573693585496.jpg); */
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.innn{
+    min-height: 80vh;
+    font-size: 15px;
+    padding: 20px;
+    background: #ecf1f8c7;
+    border-radius: 2px;
+}
+.asdf{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.as{
+    width: 260px;
+    border: 2px solid rgb(253, 246, 246);
+    border-radius: 3px;
+}
+.nimg{
+    background:cyan;
+    padding: 10px;
+    color: black;
+
 }

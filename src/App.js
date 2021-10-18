@@ -7,8 +7,7 @@ import {
 import Admin from "./Components/Admin/Admin";
 import Blogs from "./Components/Blogs/Blogs";
 import Home from "./Components/Home/Home";
-import SIgnIn from "./Components/LoginPage/SignIn";
-import SignUp from "./Components/LoginPage/SignUp";
+import SignIn from "./Components/LoginPage/Used/SignIn";
 import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
@@ -23,10 +22,7 @@ function App() {
             <Home />
           </Route>
           <Route  path="/sign-in">
-            <SIgnIn />
-          </Route>
-          <Route  path="/sign-up">
-            <SignUp/>
+            <SignIn />
           </Route>
           <Route  path="/admin">
             <Admin/>
