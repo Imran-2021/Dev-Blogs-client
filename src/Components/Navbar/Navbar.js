@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Navbar.css"
 import {
     FaFacebookSquare,
@@ -6,8 +6,10 @@ import {
 } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
+import { userContext } from "../../App";
 
 const Navbar = () => {
+    const [loggedInUser,setLoggedInUser]=useContext(userContext)
     return (
         <div className="navv">
             <div className="container mainnv">
@@ -18,7 +20,9 @@ const Navbar = () => {
                     <Link className="text-link text-linkr" to="/home">Home</Link>
                     <Link className="text-link text-linkr" to="/sign-in">Sign In</Link>
                     <Link className="text-link text-linkr" to="/blogs">Blogs</Link>
-                    <Link className="text-link" to="/admin"><img className="imeg" src="Images/imran.jpg" alt="imran's img" /></Link>
+                    <Link className="text-link" to="/admin"><img className="imeg" src={
+                       loggedInUser.photo? loggedInUser.photo : "Images/vactor.jpg"
+                        } alt="imran's img" /></Link>
                     
                 </div>
                 <div className="icon">
