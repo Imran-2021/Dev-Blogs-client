@@ -17,8 +17,8 @@ const Navbar = () => {
                 <div className="navitem">
                     <Link className="text-link text-linkr" to="/home">Home</Link>
                     <Link className="text-link text-linkr" to="/sign-in">Sign In</Link>
-                    <Link className="text-link text-linkr" to="/bloggers">Bloggers</Link>
-                    <Link className="text-link text-linkr" to="/admin">Admin</Link>
+                    <Link className="text-link text-linkr" to="/blogs">Blogs</Link>
+                    <Link className="text-link" to="/admin"><img className="imeg" src="Images/imran.jpg" alt="imran's img" /></Link>
                     
                 </div>
                 <div className="icon">
