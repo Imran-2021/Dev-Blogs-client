@@ -1,0 +1,63 @@
+.navv{
+    width: 100%;
+    min-height: 5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+.text-link:hover{
+    color: rgb(6, 26, 26,.8) !important;
+}
+.text-linkr{
+    font-size: 20px;
+}
+.text-linkr:after {
+    content: "";
+    height: 2.4px;
+    width: 0%;
+    display: block;
+    background: rgb(228, 8, 8);
+    color: black !important;
+    margin: auto;
+    transition: all .5s;
+}
+.text-link:hover::after{
+    width: 100%;
+}
+.facebook {
+    color: #ff00c8;
+    font-size: 25px;
+}
+.LinkedIn {
+    color: #ff0000;
+    font-size: 25px;
+}
+.mainnv{
+  display: grid;
+  height: 5rem;
+  grid-template-columns:  1fr 2fr .5fr ;
+}
+.logo,.navitem,.icon{
+    display: grid;
+    align-items: center;
+}
+.logo{
+    justify-content: start;
+}
+.navitem{
+    justify-content: end;
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    justify-content: end;
+    display: flex;
+    gap: 20px;
+
+}
+.menuu{
+    display: none;
+}
